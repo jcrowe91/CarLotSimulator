@@ -18,6 +18,14 @@ namespace CarLotSimulator
             //Set the properties for each of the cars
             //Call each of the methods for each car
 
+            Car dodge = new Car();
+            dodge.Year = 2001;
+            dodge.Make = "Dodge";
+            dodge.Make = "Ram 1500";
+            dodge.EngineNoise = "Vroom!";
+            dodge.HornNoise = "HONK!";
+            dodge.IsDriveable = true;
+
             //*************BONUS*************//
 
             // Set the properties utilizing the 3 different ways we learned about, one way for each car
