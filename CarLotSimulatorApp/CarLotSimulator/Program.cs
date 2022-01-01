@@ -6,6 +6,7 @@ namespace CarLotSimulator
     {
         static void Main(string[] args)
         {
+
             Car dodge = new Car();
             dodge.Year = 2001;
             dodge.Make = "Dodge";
